@@ -3,7 +3,18 @@
         "placedTurtleEggs": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "location": [{
+                "player": [],
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:birch_sapling",
+                            "components": {
+                                "minecraft:custom_data": "{custom_tree:1b}"
+                            }
+                        }
+                    },
+                    {
                         "condition": "minecraft:block_state_property",
                         "block": "minecraft:birch_sapling",
                         "properties": {}

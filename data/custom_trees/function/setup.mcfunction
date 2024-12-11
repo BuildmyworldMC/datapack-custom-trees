@@ -11,10 +11,10 @@ data modify storage custom_trees:data root.rotations append value "COUNTERCLOCKW
 
 data modify storage custom_trees:data root.mappings append value {"birch_sapling":{"type":"birch"}}
 
-data modify storage custom_trees:data root.trees.birch append value {"file":"big_1","offsetX":5,"offsetZ":6}
-data modify storage custom_trees:data root.trees.birch append value {"file":"lil_1","offsetX":1,"offsetZ":2}
-data modify storage custom_trees:data root.trees.birch append value {"file":"lil_2","offsetX":1,"offsetZ":0}
-data modify storage custom_trees:data root.trees.birch append value {"file":"mid_1","offsetX":4,"offsetZ":4}
-data modify storage custom_trees:data root.trees.birch append value {"file":"mid_2","offsetX":2,"offsetZ":4}
-data modify storage custom_trees:data root.trees.birch append value {"file":"mid_3","offsetX":6,"offsetZ":5}
-data modify storage custom_trees:data root.trees.birch append value {"file":"mid_4","offsetX":3,"offsetZ":3}
+data modify storage custom_trees:data root.trees.birch append value {"file":"big_1","offsetX":5,"offsetZ":6,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"lil_1","offsetX":1,"offsetZ":2,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"lil_2","offsetX":1,"offsetZ":0,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"mid_1","offsetX":4,"offsetZ":4,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"mid_2","offsetX":2,"offsetZ":4,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"mid_3","offsetX":6,"offsetZ":5,"weight":1}
+data modify storage custom_trees:data root.trees.birch append value {"file":"mid_4","offsetX":3,"offsetZ":3,"weight":1}
