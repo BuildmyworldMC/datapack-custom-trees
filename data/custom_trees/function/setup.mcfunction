@@ -9,6 +9,7 @@ data modify storage custom_trees:data root.rotations append value "CLOCKWISE_90"
 data modify storage custom_trees:data root.rotations append value "CLOCKWISE_180"
 data modify storage custom_trees:data root.rotations append value "COUNTERCLOCKWISE_90"
 
+# Custom birch
 data modify storage custom_trees:data root.mappings append value {"birch_sapling":{"type":"birch"}}
 
 data modify storage custom_trees:data root.trees.birch append value {"file":"big_1","offsetX":5,"offsetZ":6,"weight":3}
