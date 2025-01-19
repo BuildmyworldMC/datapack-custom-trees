@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "placedTurtleEggs": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "player": [],
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:acacia_sapling",
+                            "components": {
+                                "minecraft:custom_data": "{custom_tree:1b}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:acacia_sapling",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_trees:mechanics/block_placed/acacia_sapling"
+    }
+}
