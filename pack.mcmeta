@@ -2,13 +2,13 @@
   "pack": {
     "pack_format": 48,
     "description": [
-  		{"text": "Custom Trees","color":"blue"},
-      {"text": "\n"},
-  		{"text": "By ", "color": "yellow"},
-      {"text": "Altearn", "color": "gold"},
-      {"text": "\n"},
-  		{"text": "Version: ", "color": "dark_gray"},
-      {"text": "1.21.1-v0.2.0", "color": "gray"}
-	  ]
+      { "text": "Custom Trees", "color": "blue" },
+      { "text": "\n" },
+      { "text": "By ", "color": "yellow" },
+      { "text": "Altearn / Buildmyworld", "color": "gold" },
+      { "text": "\n" },
+      { "text": "Version: ", "color": "dark_gray" },
+      { "text": "1.21.1-v0.3.0", "color": "gray" }
+    ]
   }
 }
