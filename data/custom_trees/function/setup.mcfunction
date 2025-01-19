@@ -19,3 +19,4 @@ data modify storage custom_trees:data root.trees.birch append value {"file":"mid
 data modify storage custom_trees:data root.trees.birch append value {"file":"mid_2","offsetX":2,"offsetZ":4,"weight":4}
 data modify storage custom_trees:data root.trees.birch append value {"file":"mid_3","offsetX":6,"offsetZ":5,"weight":3}
 data modify storage custom_trees:data root.trees.birch append value {"file":"mid_4","offsetX":3,"offsetZ":3,"weight":3}
+data modify storage custom_trees:data root.trees.birch append value {"file":"rare_1","offsetX":3,"offsetZ":3,"weight":3}
