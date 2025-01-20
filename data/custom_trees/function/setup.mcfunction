@@ -34,3 +34,5 @@ data modify storage custom_trees:data root.trees.acacia append value {"file":"mi
 data modify storage custom_trees:data root.trees.acacia append value {"file":"mid_4","offsetX":6,"offsetZ":6,"weight":4}
 data modify storage custom_trees:data root.trees.acacia append value {"file":"big_1","offsetX":6,"offsetZ":6,"weight":2}
 data modify storage custom_trees:data root.trees.acacia append value {"file":"big_2","offsetX":6,"offsetZ":6,"weight":1}
+
+tellraw @a {"text":"CustomTrees Reload Complete!","color":"green","bold":true}
