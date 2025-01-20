@@ -14,7 +14,7 @@ Bouleau vanilla personnalisé
 
 `/give @s acacia_sapling[custom_name='{"color":"gold","italic":false,"text":"Custom Vanilla Birch"}',custom_data={custom_tree:1b},enchantment_glint_override=true] 1`
 
-Ajouter `/minecraft:` devant la commande give sur server (spigot, paper, etc)
+Ajouter `/minecraft:` devant la commande give sur serveur (spigot, paper, etc)
 
 # Remerciement
 
